@@ -1,0 +1,363 @@
+{
+    "intents":[
+      {
+        "tag": "chào hỏi",
+        "patterns":[
+          "Xin chào",
+          "hi",
+          "hello",
+          "hii",
+          "hiii",
+          "Chào",
+          "chào shop",
+          "Có ai ở đây không?",
+          "Có ai để trò chuyện ngay bây giờ không???"
+        ],
+        "responses":[
+          "Chào thượng đế, em là trợ lý của Sheepo. Em có thể giúp gì cho anh/chị?",
+          "Xin chào anh/chị! Em là trợ lý của Sheepo. Em có thể giúp gì cho anh/chị?"
+        ]
+      },
+      {
+        "tag": "hỏi mã theo brand",
+        "patterns":[
+          "hãng gucci có những sản phẩm nào",
+          "Shop có đồ của hãng gucci không",
+          "Shop có đồ của hãng balenciaga không",
+          "hãng balenciaga có những sản phẩm nào",
+          "đồ gucci có những gì?",
+          "đồ balenciaga có những gì",
+          "balenciaga",
+          "gucci",
+          "balenciaga có gì?",
+          "gucci có gì?"
+        ],
+        "responses":[
+          "Sau đây là các mã sản phẩm liên quan đến nhãn hàng mà anh chị cần tìm kiếm: <br><br>"
+        ]
+      },
+      {
+        "tag": "Số hotline",
+        "patterns":[
+          "Shop có số hotline không?",
+          "Cho tôi xin số điện thoại liên hệ của shop.",
+          "Tôi muốn gọi đến tổng đài, số hotline là gì?",
+          "Làm sao để liên hệ với cửa hàng qua điện thoại?",
+          "Shop có hỗ trợ khách hàng qua hotline không?",
+          "Tôi cần hỗ trợ gấp, có thể gọi số nào?",
+          "Hotline của shop hoạt động vào giờ nào?",
+          "Số điện thoại hỗ trợ của shop là gì?",
+          "Có thể liên hệ shop qua số nào?",
+          "Cửa hàng có số tổng đài chăm sóc khách hàng không?",
+          "Số điện thoại của cửa hàng?",
+          "Số điện thoại của shop?",
+          "số hotline?",
+          "tôi cần liên hệ gấp"
+        ],
+        "responses":[
+          "Để liên hệ với Sheepo, anh/chị hãy liên hệ qua số 0388454656 (8h30 - 22h). Lưu ý Thứ 7 và Chủ nhật bên em không hỗ trợ ạ."
+        ]
+      },
+      {
+        "tag": "Thanh toán khi nhận hàng",
+        "patterns":[
+          "Tôi có thể trả tiền khi nhận hàng được không",
+          "Tôi muốn thanh toán khi nhận hàng được không",
+          "Thanh toán khi nhận hàng",
+          "có thể thanh toán khi nhận hàng được không",
+          "có thể trả tiền khi nhận hàng được không",
+          "Tôi không muốn trả trước, thanh toán khi nhận hàng được không",
+          "Tôi muốn nhận hàng rồi mới trả tiền, shop có hỗ trợ không?",
+          "Shop có dịch vụ COD không?",
+          "Shop có hỗ trợ thanh toán khi giao hàng không?",
+          "Có nhận tiền mặt không",
+          "Tôi muốn trả tiền mặt",
+          "Tôi không muốn thanh toán trước"
+        ],
+        "responses":[
+          "Dạ được ạ. Anh/chị có thể thanh toán khi nhận được hàng ạ!"
+        ]
+      },
+      {
+        "tag": "Thanh toán chuyển khoản",
+        "patterns":[
+          "Tôi có thể chuyển khoản luôn được không",
+          "Tôi muốn thanh toán luôn",
+          "Thanh toán chuyển khoản",
+          "Tôi có thể thanh toán bằng chuyển khoản không?",
+          "Shop có hỗ trợ thanh toán qua ngân hàng không?",
+          "Tôi muốn chuyển khoản trước khi nhận hàng, có được không?",
+          "Có thể thanh toán bằng Internet Banking không?",
+          "Tôi muốn thanh toán qua ví điện tử, có hỗ trợ không?",
+          "Shop có tài khoản ngân hàng để tôi chuyển khoản không?",
+          "Có thể thanh toán qua QR Code không?"
+        ],
+        "responses":[
+          "Dạ được ạ. Anh/chị có thể thanh toán chuyển tiền vào VietinBank: 100784253784. \n Anh/chị vui lòng gửi lại ảnh sau khi thanh toán giúp em ạ!"
+        ]
+      },
+      {
+        "tag": "Phương thức thanh toán",
+        "patterns":[
+          "Tôi có thể thanh toán như nào?",
+          "phương thức thanh toán như nào?",
+          "phương thức thanh toán",
+          "thanh toán như nào",
+          "cách thanh toán",
+          "Làm sao tôi có thể thanh toán",
+          "có những cách thanh toán nào"
+        ],
+        "responses":[
+          "Shop em hiện tại có 2 phương thức thanh toán ạ. \n Anh/chị có thể thanh toán khi nhận hàng. \n Hoặc mình có thể chuyển khoản vào VietinBank: 100784253784. \n Anh/chị vui lòng gửi lại ảnh sau khi thanh toán!"
+        ]
+      },
+      {
+        "tag": "Hỏi thông tin theo code",
+        "patterns":[
+          "Giá của mã A001 là bao nhiêu?",
+          "Mã A001 giá bao nhiêu",
+          "A001 giá như nào",
+          "A001 giá bao nhiêu",
+          "A001 còn size nào?",
+          "Thông tin về mã A001",
+          "A009",
+          "Mã A009",
+          "A001",
+          "A002",
+          "A003",
+          "A004",
+          "A005",
+          "A006",
+          "A007",
+          "A008",
+          "A010",
+          "A011",
+          "A012",
+          "A013",
+          "A014",
+          "A015",
+          "A016",
+          "A017",
+          "A018",
+          "A019",
+          "A020",
+          "A021",
+          "A022",
+          "A023",
+          "A024",
+          "A025",
+          "A026"
+        ],
+
+        "responses":[
+          "Dạ, đây là thông tin về sản phẩm ạ:<br><br>"
+        ]
+      },
+      {
+        "tag": "Hỏi sản phẩm",
+        "patterns":[
+          "Những sản phẩm nào còn hàng?",
+          "bạn còn áo thun không?",
+          "bạn còn quần jean không?",
+          "quần jean còn không?",
+          "áo thun còn không?",
+          "quần jean còn k?",
+          "còn quần jean k?",
+          "còn áo thun k?",
+          "Shop còn áo khoác không ạ?",
+          "Hiện tại có bao nhiêu sản phẩm được bán?",
+          "Shop đang có những sản phẩm nào?"
+        ],
+        "responses":[
+          "Đây là những sản phẩm chúng em có:<br><br>"
+        ]
+      },
+      {
+        "tag": "Đổi size",
+        "patterns":[
+          "Tôi có thể đổi size nếu không vừa không?",
+          "Có thể đổi size nếu không vừa?",
+          "Có thể đổi cỡ nếu không vừa không?",
+          "Tôi có thể đổi kích cỡ nếu không vừa không?",
+          "Nếu không vừa, tôi có thể đổi hàng?",
+          "Đổi hàng nếu không vừa?",
+          "Đổi hàng"
+        ],
+        "responses":[
+          "Dạ được ạ. Nhưng anh/chị cần phải có đầy đủ hóa đơn và tag sản phẩm trên quần/áo ạ. \n Anh/chị vui lòng mang đến cửa hàng hoặc gửi ship đến cửa hàng để bên em đổi hàng cho anh chị ạ!",
+          "Nếu sản phẩm còn tag và đầy đủ hóa đơn, thì anh/chị sẽ không mất phí gì đâu ạ. \n Nhưng anh/chị cần mang sản phẩm đến cửa hàng hoặc giao đến cửa hàng giúp em ạ!"
+        ]
+      },
+      {
+        "tag": "trả lại có mất phí không",
+        "patterns":[
+          "trả lại có mất tiền không?",
+          "Sẽ mất bao nhiêu tiền để trả lại hàng",
+          "trả lại sẽ mất bao nhiêu tiền?",
+          "mất bao nhiêu tiền để trả lại hàng?",
+          "Tôi không thích mẫu này, có trả lại được hàng không",
+          "mẫu này tôi không ưng, tôi muốn trả lại hàng",
+          "tôi muốn trả lại hàng vì không ưng",
+          "tôi không ưng, tôi muốn trả hàng"
+        ],
+        "responses":[
+          "Nếu anh chị muốn đổi size thì được ạ. Hoặc nếu anh chị không thích sản phẩm, chỉ cần còn hóa đơn, tag và còn mới thì bên em sẽ nhận thu lại với giá 90%. \n Còn nếu không thì bên em sẽ không nhận thu lại ạ!"
+        ]
+      },
+      {
+        "tag": "Hỏi giá + size sản phẩm",
+        "patterns":[
+          "giá của áo khoác là bao nhiêu?",
+          "áo khoác giá bao nhiêu?",
+          "áo khoác giá như nào?",
+          "giá áo khoác",
+          "giá áo thun",
+          "giá áo polo Gucci?",
+          "giá quần Gucci",
+          "Áo thun có giá bao nhiêu",
+          "quần Jean giá như nào?",
+          "Áo thun trắng có những size gì",
+          "áo thun đen có những cỡ nào?",
+          "áo thun đen có cỡ gì?"
+        ],
+        "responses":[
+          "Anh/chị vui lòng click vào SẢN PHẨM để xem chi tiết ạ! \n Hoặc anh/chị có thể cung cấp giúp em mã sản phẩm, em sẽ đưa ra giá ạ!",
+          "Để xem giá và chi tiết về mặt hàng. Anh/chị vui lòng click vào SẢN PHẨM ạ! \n Hoặc anh/chị có thể cung cấp giúp em mã sản phẩm, em sẽ đưa ra giá ạ!"
+        ]
+      },
+      {
+        "tag": "chào tạm biệt",
+        "patterns":[
+          "bai",
+          "bye",
+          "goodbye"
+        ],
+        "responses":[
+          "Rất vui vì được phục vụ cho anh/chị!",
+          "Tạm biệt, em rất vui vì được phục vụ cho anh/chị!"
+        ]
+      },
+      {
+        "tag": "sản phẩm",
+        "patterns":[
+          "bạn bán những sản phẩm nào?",
+          "bạn có những mặt hàng nào?",
+          "bạn bán những gì?",
+          "bạn có bán đồ dùng khác ngoài quần áo không?",
+          "shop bán gì",
+          "tôi có thể mua gì",
+          "Shop có những mặt hàng gì"
+
+        ],
+        "responses":[
+          "Cửa hàng em hiện đang kinh doanh quần áo. Phù hợp với mọi người từ độ tuổi 15-30.",
+          "Cửa hàng em chỉ kinh doanh quần áo cho độ tuổi từ 15-30."
+        ]
+      },
+      {
+        "tag": "khuyến mãi",
+        "patterns":[
+          "Đang có chương trình khuyến mãi nào không?",
+          "Đang có chương trình khuyến mại nào không?",
+          "Shop có chương trình khuyến mãi nào không?",
+          "Shop có chương trình khuyến mại nào không?",
+          "chương trình?",
+          "Shop có chương trình gì không?",
+          "Hiện tại có khuyến mãi gì k?",
+          "Có voucher giảm giá nào không?",
+          "có ưu đãi gì không?",
+          "có ưu đãi đặc biệt gì không",
+          "có sale gì không?",
+          "có chương trình mua 1 tặng 1 không",
+          "Có khuyến mãi Black Friday không?",
+          "Có khuyến mãi Noel không?",
+          "Có khuyến mãi Tết không?"
+        ],
+        "responses":[
+          "Xin chào anh/chị. Hiện tại bên em đang không có chương trình khuyến mại nào!",
+          "Xin lỗi anh/chị. Shop em hiện tại chưa có chương trình khuyến mại nào!"
+        ]
+      },
+      {
+        "tag": "vận chuyển",
+        "patterns":[
+          "hình thức vận chuyển như thế nào?",
+          "tiền ship như thế nào?",
+          "bạn có nhận ship không?",
+          "giá vận chuyển như thế nào?",
+          "tôi cách xa đây, vận chuyển được không?",
+          "giá vận chuyển ra sao?",
+          "ship được không?",
+          "tiền ship như nào?",
+          "vận chuyển như nào?",
+          "giá vận chuyển?",
+          "tôi ở khá xa cửa hàng, mất bao lâu tôi có thể nhận được hàng?",
+          "Phí ship bao nhiêu",
+          "phí vận chuyển bao nhiêu"
+        ],
+        "responses":[
+          "Cửa hàng em miễn phí vận chuyển cho đơn hơn hàng có khoảng cách dưới 10km hoặc cho hóa đơn trên 5.000.000 vnđ, trên 10km tiền ship là 100.000 vnđ."
+        ]
+      },
+      {
+        "tag": "Thời gian vận chuyển",
+        "patterns":[
+          "Thời gian vận chuyển là bao lâu?",
+          "Mất bao lâu để tôi có thể nhận được hàng?",
+          "bao lâu sẽ nhận được hàng?",
+          "thời gian giao hàng?",
+          "Thời gian giao hàng là bao lâu?",
+          "mấy hôm tôi sẽ nhận được đơn đặt hàng của mình?",
+          "mấy hôm sẽ nhận được hàng",
+          "thời gian vận chuyển là bao lâu?",
+          "bao lâu vận chuyển sẽ giao cho tôi?",
+          "bao lâu thì giao",
+          "tôi cần nhận hàng gấp",
+          "thời gian vận chuyển"
+        ],
+        "responses":[
+          "Giao hàng tiêu chuẩn thì sẽ mất khoảng 3-5 ngày anh/chị sẽ nhận được hàng ạ. Nếu cần gấp, anh/chị có thể liên hệ qua hotline 0388454656 (8h30 - 22h)!"
+        ]
+      },
+      {
+        "tag": "hỗ trợ đặt hàng",
+        "patterns": [
+          "Tôi đặt hàng như thế nào?",
+          "Tôi muốn đặt hàng",
+          "Hỗ trợ tôi mua sản phẩm",
+          "tôi không biết cách đặt hàng",
+          "để mua hàng tôi phải cung cấp thông tin gì",
+          "tôi phải cung cấp thông tin gì để có thể đặt hàng",
+          "đặt hàng như nào?",
+          "làm sao để mua sản phẩm?",
+          "tôi muốn đặt mua sản phẩm",
+          "giúp tôi mua hàng",
+          "mua hàng phải làm thế nào?"
+        ],
+        "responses": [
+          "Anh/Chị có thể liên hệ số hotline: 0388454656 (8h30 - 22h) để được nhân viên hỗ trợ mua hàng ạ!",
+          "Bên em cần tên tài khoản email của anh/chị để gửi thông tin hoá đơn. Ngoài ra, anh/chị cần cung cấp tên, số điện thoại, địa chỉ để nhân viên bên em giao hàng ạ!",
+          "Để đặt hàng, bên em sẽ cần tên tài khoản email (dựa theo tài khoản web của anh/chị) và tên, số điện thoại và địa chỉ của anh/chị. Cách thức đặt hàng bên em như sau:<br>- Chọn 'Sản Phẩm' trên thanh công cụ<br>- Ấn vào 'Thêm giỏ hàng' sản phẩm mình muốn<br>- Chọn kích thước và số lượng muốn mua<br>- Click 'Thêm vào giỏ hàng', sau đó nhấn vào hình giỏi hàng trên thanh công cụ và chọn 'Thanh toán'<br>- Nhập vào địa chỉ nhận hàng và ấn 'Đặt hàng'"
+        ]
+      },
+      {
+        "tag":"tư vấn",
+        "patterns":[
+          "tôi nên mặc size gì?",
+          "kích cỡ quần áo như nào thích hợp với tôi?",
+          "tư vấn giúp tôi nên chọn size nào?",
+          "tôi nên chọn kích thước như nào?",
+          "tôi nên chọn kích cỡ như nào?",
+          "kích cỡ nào phù hợp với tôi?",
+          "tư vấn size",
+          "tư vấn kích cỡ",
+          "hãy giúp tôi chọn cỡ",
+          "hãy giúp tôi chọn size"
+        ],
+        "responses":[
+          "Chiều cao 1m7 cân nặng 60 đến 70 kg thì size M sẽ phù hợp với anh/chị.\n Chiều cao của anh/chị từ 1m8 trở lên, cân nặng từ 70kg thì size L sẽ phù hợp với anh/chị. \n Nếu anh/chị trên 1m8 và cân nặng trên 70kg thì size XL sẽ phù hợp với anh/chị."
+        ]
+      }
+    ]
+  }
+  
